@@ -1,0 +1,8 @@
+{
+  "name": "AntiEZ",
+  "creator": "ImAhmadAbdullah",
+  "description": "This module bypasses Hypixel's anti-ez plugin.",
+  "version": "1.0.0",
+  "entry": "index.js",
+  "requires": ["CTAutocomplete", "PogData"]
+}
