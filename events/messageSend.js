@@ -1,11 +1,16 @@
 /// <reference types="../../CTAutocomplete" />
 /// <reference lib="es2015" />
+
 import { config } from "../config/config";
-import replaceEZ from "../functions/replaceEZ";
 
 export default sentMessage = (message, event) => {
-    if (message.toLowerCase().includes("ez") && config.toggled) {
-      cancel(event);
-      ChatLib.say(replaceEZ(message));
-    }
-  };
+  if (/\bez\b/i.test(message) && config.toggled) {
+    cancel(event);
+    const newMessage = message
+    .replace(/Ez/g, "Easy")
+    .replace(/EZ/g, "EASY")
+    .replace(/ez/g, "easy")
+    .replace(/eZ/g, "easy");
+    ChatLib.say(newMessage);
+  }
+};

@@ -1,15 +1,10 @@
-## AntiEZ by ImAhmadAbdullah
+# AntiEZ [1.1.0] by ImAhmadAbdullah
+**Prevents accidental triggers of Hypixel's anti-ez plugin.**
 
-**This module bypasses Hypixel's anti-ez plugin.**
+Features:
 
-### Features:
-- Replaces the word "ez" in your messages with "easy".
-- Replaces others' Hypixel autocorrected ez messages with "Easy."
-- The mod can be toggled using the command /antiez toggle.
+Type /antiez or /ae to access module information and toggle it on/off.
+Automatically replaces "ez" with "easy" in chat to avoid triggering Hypixel's plugin.
+Notifies you with "Easy" if someone else triggers the plugin, ensuring clarity in communication.
 
-### Commands:
-- /antiez: View a list of all commands.
-- /antiez toggle: Toggle the module.
-- /antiez reload: Reload the module.
-- /antiez version: Get the module's version.
-- /antiez credits: View the module's contributors.
+For bug reports or inquiries, reach out to @imahmadabdullah on Discord. Happy chatting!
